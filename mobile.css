@@ -3,6 +3,10 @@
     margin: 0;
 }
 
+body {
+    background: #333;
+}
+
 .container {
     grid-template-rows: 1fr 1fr 1fr 1fr;
     height: 100vh;
@@ -28,9 +32,16 @@
 
 .sen-1 {
     padding-left: 0;
+    padding-right: 0;
 }
 
 .sen-3 {
+    padding-right: 0px;
+    padding-left: 0;
     text-align: center;
-    padding-right: 0;
+}
+
+.menu-wrap .menu > div {
+    width: 200vw;
+    height: 120vh;
 }
